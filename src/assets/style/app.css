@@ -1,0 +1,74 @@
+a{
+    font-size: 15px;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.container h1,
+.container p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.input {
+    border: 1px solid white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.input i {
+    font-size: 20px;
+}
+
+.login {
+    background: none;
+    border: none;
+    border: 2px solid green;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    color: green;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.login:hover{
+    border: 2px solid #00800054;
+    background-color: #00800054;
+}
+
+.gmail {
+    font-size: 25px;
+    cursor: pointer;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.gmail button {
+    background: none;
+    border: none;
+    color: white;
+}
+
+.notMember{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

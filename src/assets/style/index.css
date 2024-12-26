@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: "Roboto", serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background : url(../images/pexels-victorbarborsa-16229189.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: color;
+    background-color: #00000056;
+}
